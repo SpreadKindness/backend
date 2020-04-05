@@ -1,0 +1,30 @@
+{
+  "name": "spreadkindness-backend",
+  "version": "1.0.0",
+  "description": "Spread Kindness backend application",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpreadKindness/backend.git"
+  },
+  "keywords": [
+    "spreadkindness"
+  ],
+  "author": "Israel Pereira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpreadKindness/backend/issues"
+  },
+  "homepage": "https://github.com/SpreadKindness/backend#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
